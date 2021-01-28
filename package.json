@@ -1,0 +1,28 @@
+{
+  "name": "f-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development electron .",
+    "start": "electron .",
+    "dist:win32": "electron-builder --win --ia32",
+    "dist:win64": "electron-builder --win --x64",
+    "dist:mac": "electron-builder --mac"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dafrok/f-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dafrok/f-check/issues"
+  },
+  "homepage": "https://github.com/Dafrok/f-check#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "11.1.0",
+    "electron-builder": "^22.9.1"
+  }
+}
